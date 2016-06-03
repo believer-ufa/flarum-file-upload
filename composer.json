@@ -1,0 +1,35 @@
+{
+    "name": "believer-ufa/flarum-file-upload",
+    "description": "Upload files to flarum forum",
+    "keywords": [ "upload", "flarum"],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Roman Akhmadullin",
+            "email": "freeman.aka.ahmed@gmail.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/believer-ufa/flarum-file-upload/issues",
+        "source": "https://github.com/believer-ufa/flarum-file-upload"
+    },
+    "require": {
+        "flarum/core": "^0.1.0-beta.5"
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "File Upload",
+            "icon": {
+                "name": "upload",
+                "backgroundColor": "#000",
+                "color": "#87d37c"
+            }
+        },
+    },
+    "autoload": {
+        "psr-4": {
+            "BelieverUfa\\FileUpload\\": "src/"
+        }
+    }
+}
