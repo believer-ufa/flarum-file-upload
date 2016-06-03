@@ -25,7 +25,7 @@
                 "backgroundColor": "#000",
                 "color": "#87d37c"
             }
-        },
+        }
     },
     "autoload": {
         "psr-4": {
